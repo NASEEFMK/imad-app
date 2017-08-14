@@ -19,17 +19,17 @@ app.get('/ui/madi.png', function (req, res) {
 
 
 app.get('/article-one', function (req, res) {
-  res.sendFile('one');
+  res.send('one');
 });
 
 
 app.get('/article-two', function (req, res) {
-  res.sendFile('two');
+  res.send('two');
 });
 
 
 app.get('/article-three', function (req, res) {
-  res.sendFile('three');
+  res.send('three');
 });
 
 // Do not change port, otherwise your app won't run on IMAD servers
